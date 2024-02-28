@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video</title>
+    <link rel="shortcut icon" href="./source/favicon.png" type="image/x-icon">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: #ece8e5 url(./source/bg_img.png)no-repeat center center;
+        }
+
+        #wrapper {
+            max-width: 1200px;
+            margin: 0px auto;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        #wrapper video {
+            width: 100%;
+        }
+
+        .fixed_box {
+            position: fixed;
+            bottom: 40px;
+            right: 30px;
+            width: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <video src="./source/main_video.mp4" autoplay muted loop playsinline></video>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
